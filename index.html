@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+
+<body class="scroll-smooth">
+    <nav class="navbar text-3xl text-white font-bold pl-">
+        <div class="container" style="max-width: 1140px">
+            <a href="#" class="logo">MyVilla<span class="text-sky-400">.</span></a>
+        </div>
+    </nav>
+
+    <header class="bg-[url('/images/room.jpg')] bg-cover">
+        <div class="container" style="max-width: 1140px">
+            <div class="login-form border-solid border-2 border-gray-100 rounded-lg">
+                <form class="p-10 bg-white rounded-lg drop-shadow-lg shadow-lg space-y-4" action="">
+                    <h1 class="text-2xl font-bold flex justify-center">My Villa</h1>
+            
+                    <!-- Email -->
+                    <div class="flex flex-col">
+                        <label for="email">Email address</label>
+                        <input type="email" name="email" id="email" placeholder="email@example.com" required class="peer required:border-red-500 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline valid:border-green-500">
+                        <p class="invisible peer-invalid:visible text-red-700 font-light">
+                            Please enter a valid email address
+                        </p>
+                    </div>
+            
+                    <!-- Password -->
+                    <div class="flex flex-col">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" placeholder="Enter your password" required class="peer required:border-red-500 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline valid:border-green-500">
+                        <p class="invisible peer-invalid:visible text-red-700 font-light">
+                            Please enter a password
+                        </p>
+                    </div>
+                    <button type="submit" class="px-5 py-1 bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 border border-gray-400 rounded shadow">Submit</button>
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <section class="benefit">
+        <div class="container flex text-center" style="max-width: 1140px">
+            <div class="flex flex-col mr-4 items-center">
+                <img src="/images/3.png" alt="">
+                <h2 class="text-2xl py-4">Best Location</h2>
+                <p>Design becoming like this is
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, illum?</p>
+            </div>
+            <div class="flex flex-col mx-4 px-5 items-center">
+                <img src="/images/1.png" alt="">
+                <h2 class="text-2xl py-4">Best Value</h2>
+                <p>Design becoming like this is
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, tempore!</p>
+            </div>
+            <div class="flex flex-col ml-4 items-center">
+                <img src="/images/5.png" alt="">
+                <h2 class="text-2xl py-4">Best Goal</h2>
+                <p>Design becoming like this is
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, cupiditate?</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="blog flex flex-col items-center pb-16 pt-16">
+        <div class="container" style="max-width: 1140px">
+            <div class="section-header pb-4 flex flex-col items-center">
+                <img src="images/home-icon.original.png" alt="House-Icon" class="pb-2 w-16">
+                <h2 class="pb-2 pt-2" style="color:rgb(72, 72, 72)">OUR AWESOME HOMES</h2>
+                <p class="pb-5" style="color:rgb(100, 100, 100)">We turn you on to pro lighting strategies to highlight features create intrigue.</pc>
+            </div>
+
+            </div>
+
+            <div id="template-output" class="list-items flex w-full justify-between gap-12 select-none" style="max-width: 1140px; flex-wrap: wrap;">
+
+            </div>
+        </div>
+    </section>
+    
+    <section class="company pt-16">
+        <div class="container" style="max-width: 1300px">
+            <div class="flex flex-col mr-4 items-center">
+                <img src="/images/section-2.png" alt="">
+                <h2 class="pb-2 pt-2" style="color:rgb(72, 72, 72)">WELCOME TO OUR COMPANY</h2>
+                <p class="pb-5" style="color:rgb(100, 100, 100)">We turn you on to pro lighting strategies to highlight features create intrigue. </p>
+            </div>
+            <div class="flex">
+                <div class="checkmark">
+                    <div class="py-2">
+                        <img src="/images/icon-check.original.png" alt="" class="inline w-16">
+                        <p class="inline" style="font-size: 16px;">The Best Unbounce templates that are considered to be within these categorie. </p>
+                    </div>
+                    <div class="py-2">
+                        <img src="/images/icon-check.original.png" alt="" class="inline w-16">
+                        <p class="inline" style="font-size: 16px;">The Best Unbounce templates that are considered to be within these categorie. </p>
+                    </div>
+                    <div class="py-2">
+                        <img src="/images/icon-check.original.png" alt="" class="inline w-16">
+                        <p class="inline" style="font-size: 16px;">The Best Unbounce templates that are considered to be within these categorie. </p>
+                    </div>
+                    <div class="py-2">
+                        <img src="/images/icon-check.original.png" alt="" class="inline w-16">
+                        <p class="inline" style="font-size: 16px;">The Best Unbounce templates that are considered to be within these categorie. </p>
+                    </div>
+                </div>
+                <img src="images/welcome.jpg" alt="" class="welcome-jpg">
+            </div>
+        </div>
+    </section>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
